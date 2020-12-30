@@ -14,11 +14,10 @@ const home = () => {
           <Col xs={24} lg={3}>
             <p className="text-purple text-label padding-top-label">Address:</p>
           </Col>
-          <Col className="padding-top-label" xs={24} lg={10}>
+          <Col className="padding-top-label" xs={24} lg={9} xl={6}>
             <input className="input" type="text"/>
           </Col>
-          <Col xs={0} lg={1}/>
-          <Col className="align-right padding-top-label" xs={0} lg={5}>
+          <Col className="align-right padding-top-label home-btn" xs={0} lg={5} xl={4}>
             <button className="standard-button home-button">Invite Friend</button>
           </Col>
         </Row>
@@ -35,11 +34,10 @@ const home = () => {
           <Col xs={24} lg={3}>
             <p className="text-purple text-label padding-top-label">BNB Staked</p>
           </Col>
-          <Col className="padding-top-label" xs={24} lg={10}>
+          <Col className="padding-top-label" xs={24} lg={9} xl={6}>
             <input className="input" type="text"/>
           </Col>
-          <Col xs={0} lg={1}/>
-          <Col className="padding-top-label align-right" xs={24} lg={5}>
+          <Col className="padding-top-label align-right home-btn" xs={24} lg={5} xl={4}>
             <span>
               <button className="add-more-button">
               <img className="icon-button-add-more" src="../../../assets/images/plus.svg"/>
