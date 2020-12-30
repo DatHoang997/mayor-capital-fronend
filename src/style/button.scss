@@ -4,4 +4,11 @@
   background-color: $light-purple;
   color: $white;
   font-size: 12px;
+  &:hover {
+    transform: translateY(-2px);
+  }
+
+  &:active {
+    transform: translateY(2px);
+  }
 }

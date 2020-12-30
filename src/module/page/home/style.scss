@@ -41,6 +41,13 @@
     border-radius: 0px 5px 5px 0px;
     font-weight: 700;
     line-height: 14px;
+    &:hover {
+      transform: translateY(-2px);
+    }
+
+    &:active {
+      transform: translateY(2px);
+    }
   }
 
   .add-more-button {
@@ -53,6 +60,13 @@
     font-weight: 700;
     line-height: 14px;
     margin-right: 5px;
+    &:hover {
+      transform: translateY(-2px);
+    }
+
+    &:active {
+      transform: translateY(2px);
+    }
   }
 
   .home-card {
@@ -102,6 +116,13 @@
     border-radius: 0px 5px 5px 0px;
     font-weight: 700;
     line-height: 14px;
+    &:hover {
+      transform: translateY(-2px);
+    }
+
+    &:active {
+      transform: translateY(2px);
+    }
   }
 
   .add-more-button {
@@ -114,6 +135,13 @@
     font-weight: 700;
     line-height: 14px;
     margin-right: 5px;
+    &:hover {
+      transform: translateY(-2px);
+    }
+
+    &:active {
+      transform: translateY(2px);
+    }
   }
 
   .home-card {
@@ -166,6 +194,13 @@
     font-weight: 700;
     line-height: 14px;
     margin-left: 1px;
+    &:hover {
+      transform: translateY(-2px);
+    }
+
+    &:active {
+      transform: translateY(2px);
+    }
   }
 
   .add-more-button {
@@ -178,6 +213,13 @@
     font-weight: 700;
     line-height: 14px;
     margin-right: 1px;
+    &:hover {
+      transform: translateY(-2px);
+    }
+
+    &:active {
+      transform: translateY(2px);
+    }
   }
 
   .home-card {
