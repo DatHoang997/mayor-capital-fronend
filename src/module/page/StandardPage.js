@@ -19,9 +19,9 @@ const BasePage = (props) => {
           </div>
           </Layout.Content>
         </Col>
-        {/* <Col span={24}>
+        <Col xs={0} md={24}>
           <Footer />
-        </Col> */}
+        </Col>
       </Row>
     </Layout>
   )
