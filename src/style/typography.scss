@@ -1,0 +1,101 @@
+@import './color';
+
+@font-face {
+  font-family: 'Avenir';
+  src: url('../assets/fonts/AvenirLTStd-Heavy.ttf') format('truetype'),
+  url('../assets/fonts/AvenirLTStd-Heavy.otf') format('opentype')
+}
+
+@font-face {
+  font-family: 'Univia';
+  src: url('../assets/fonts/SVN-UniviaProRegular.otf') format('opentype')
+}
+
+
+p, b, div {
+  font-size: 16px;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 15px 0;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 15px 0;
+}
+
+h3 {
+  font-size: 36px;
+  margin: 15px 0;
+}
+
+h4 {
+  font-size: 24px;
+  margin: 15px 0;
+}
+
+h5 {
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.help-text {
+  font-size: 100%;
+}
+
+.text-size-md {
+  font-size: 14px;
+}
+
+.text-white {
+  color: $white;
+}
+
+.text-purple {
+  color: $light-purple;
+}
+
+.text-label {
+  font-family: Avenir;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.text-wrap {
+  word-wrap: break-word;
+}
+
+@media only screen and (max-width: 576px) {
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+}
