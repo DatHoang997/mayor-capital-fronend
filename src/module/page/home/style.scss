@@ -1,5 +1,9 @@
 @import "../../../style/color";
 
+.content {
+  background: $background;
+}
+
 @media only screen and (max-width: 992px) {
   .content {
     padding-left: 20px;

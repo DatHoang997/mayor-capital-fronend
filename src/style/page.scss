@@ -1,13 +1,18 @@
+body {
+  background-color: $background;
+}
+
 .hide {
   display: none;
 }
 
 .background {
-  background-color: #222222;
+  background-color: $background;
 }
 
 .main {
-  height: 100vh;
+  // height: 100vh;
+  background-color: $background;
 }
 
 .hide-on-desktop {
